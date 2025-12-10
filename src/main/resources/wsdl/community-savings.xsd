@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://example.com/communitysavings/ws"
+           xmlns:tns="http://example.com/communitysavings/ws"
+           elementFormDefault="qualified">
+
+    <xs:complexType name="SavingsGroupType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string" minOccurs="0"/>
+            <xs:element name="groupName" type="xs:string"/>
+            <xs:element name="targetAmount" type="xs:decimal"/>
+            <xs:element name="adminMemberId" type="xs:string"/>
+            <xs:element name="memberIds" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="memberId" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="CreateGroupRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="groupName" type="xs:string"/>
+                <xs:element name="targetAmount" type="xs:decimal"/>
+                <xs:element name="adminMemberId" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="CreateGroupResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="groupId" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="FindGroupByIdRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="groupId" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="FindGroupByIdResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="savingsGroup" type="tns:SavingsGroupType" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

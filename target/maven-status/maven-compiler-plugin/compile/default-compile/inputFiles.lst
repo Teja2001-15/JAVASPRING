@@ -1,0 +1,15 @@
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/CommunitySavingsApplication.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/config/OpenApiConfig.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/config/WebServiceConfig.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/endpoint/SavingsGroupEndpoint.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/model/SavingsGroup.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/repository/SavingsGroupRepository.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/rest/CreateGroupDto.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/rest/SavingsGroupRestController.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/service/SavingsGroupService.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/ui/GroupListView.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/ws/CreateGroupRequest.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/ws/CreateGroupResponse.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/ws/FindGroupByIdRequest.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/ws/FindGroupByIdResponse.java
+/workspaces/JAVASPRING/src/main/java/com/example/communitysavings/ws/SavingsGroupType.java

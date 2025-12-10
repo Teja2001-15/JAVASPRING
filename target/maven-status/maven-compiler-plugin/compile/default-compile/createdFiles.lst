@@ -1,0 +1,16 @@
+com/example/communitysavings/ws/FindGroupByIdRequest.class
+com/example/communitysavings/ws/SavingsGroupType$MemberIds.class
+com/example/communitysavings/rest/SavingsGroupRestController.class
+com/example/communitysavings/config/WebServiceConfig.class
+com/example/communitysavings/model/SavingsGroup.class
+com/example/communitysavings/ws/FindGroupByIdResponse.class
+com/example/communitysavings/CommunitySavingsApplication.class
+com/example/communitysavings/repository/SavingsGroupRepository.class
+com/example/communitysavings/ui/GroupListView.class
+com/example/communitysavings/ws/SavingsGroupType.class
+com/example/communitysavings/service/SavingsGroupService.class
+com/example/communitysavings/ws/CreateGroupResponse.class
+com/example/communitysavings/config/OpenApiConfig.class
+com/example/communitysavings/endpoint/SavingsGroupEndpoint.class
+com/example/communitysavings/rest/CreateGroupDto.class
+com/example/communitysavings/ws/CreateGroupRequest.class
